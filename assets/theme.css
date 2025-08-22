@@ -1,0 +1,40 @@
+/* ===== Background Image ===== */
+.stApp {
+  background: url("assets/webbackground.jpg") no-repeat center center fixed !important;
+  background-size: cover !important;
+}
+
+/* ===== Overlay for readability ===== */
+.block-container {
+  background: rgba(0,0,0,0.85) !important;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+/* ===== Gothic Theme Colors ===== */
+h1, h2, h3, h4, h5, h6, label, .stMarkdown, .stText, .stMetric {
+  color: #ff3030 !important;
+}
+
+.stButton>button, .stDownloadButton>button {
+  border: 1px solid #444;
+  color: #ff3030;
+  background: #0a0a0a;
+}
+.stButton>button:hover, .stDownloadButton>button:hover {
+  border-color: #ff3030;
+}
+
+/* Optional: card style you can reuse */
+.card {
+  border: 1px solid #7a0a0a;
+  background: linear-gradient(180deg, #0d0d0d 0%, #0a0a0a 100%);
+  border-radius: 12px;
+  padding: 16px 18px;
+  box-shadow: 0 0 25px rgba(122,10,10,0.15), inset 0 0 20px rgba(0,0,0,0.5);
+  position: relative;
+  overflow: hidden;
+}
+.card h3 { margin: 0 0 6px 0; color: #ff3b3b; }
+.card .sub { color:#ff7a7a; font-size: 0.9rem; margin-bottom:10px; }
+.dotline { letter-spacing: 1px; }
